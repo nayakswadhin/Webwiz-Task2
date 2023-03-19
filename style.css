@@ -2,9 +2,6 @@
     html{
         font-size: 70%;
     }
-    #navbar{
-        flex-direction: column;
-    }
     #home{
         flex-direction: column;
         justify-content: center;
@@ -13,7 +10,6 @@
     #media-links{
         display: none;
     }
-
     .batches{
         width: 60%;
     }
@@ -31,6 +27,10 @@
     .intro2{
         margin: 2rem 1rem;
         padding: 1rem;
+    }
+    .intro-highlight{
+        margin: 3rem 0rem 10rem;
+        width: 100%;
     }
     .motivation-para{
         margin: -12.5rem 0rem;
@@ -77,6 +77,12 @@
         flex-direction: column;
         margin-left: 0;
         margin: 0rem;
+    }
+    .ak-container h2{
+        font-size: 2.5rem;
+    }
+    .ak-container a{
+        font-size: 1.7rem;
     }
 }
 @media(max-width:650px){

@@ -203,8 +203,8 @@ h1{
 }
 .intro-highlight{
     border-radius: 10px;
-    width: 46%;
-    height: 11%;
+    width: 49%;
+    height: 9%;
     overflow: auto;
     background-color: white;
     color: black;
@@ -214,6 +214,19 @@ h1{
 }
 .intro-highlight li{
     padding: 0.5rem;
+}
+.intro-highlight::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color: black;
+}
+.intro-highlight::-webkit-scrollbar {
+    width: 5px;
+}
+.intro-highlight::-webkit-scrollbar-track{
+   margin: 5px;
+   background-color: grey;
+   border-radius: 10px;
+   opacity: 0.1;
 }
 #channel-container{
     position: relative;
