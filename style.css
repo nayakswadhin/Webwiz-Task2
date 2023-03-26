@@ -85,8 +85,16 @@
         font-size: 1.7rem;
     }
 }
+.col{
+    height: 3rem;
+    padding: .5rem;
+}
+
+
 @media(max-width:650px){
     .homeImg{
         display: none;
     }
+    
+    
 }
